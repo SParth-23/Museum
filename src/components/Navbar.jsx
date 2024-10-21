@@ -1,12 +1,12 @@
 import React from "react";
 import { TiThMenu } from "react-icons/ti";
-
+import logo from "./assets/logo.png";
 function Navbar() {
   return (
     <div className="w-screen flex justify-between align-middle items-center px-14">
       <img
         className="h-32"
-        src="src\components\assets\logo.png"
+        src="logo.png"
         alt="logo"
       />
       <h1 className="text-3xl font-bold capitalize">Sanskritik Dharohar evam Sangrahlaya</h1>
